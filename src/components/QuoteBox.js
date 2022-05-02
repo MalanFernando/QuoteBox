@@ -25,7 +25,7 @@ const QuoteBox = () => {
                 <p className="content-text">{quotes[index].quote}</p>
                 <span className='author'><b>Author:</b> {quotes[index].author}</span>
             </div>
-            <Button onClick={nextQuote} />
+            <Button style={{color: colors[randomNumberColor]}} onClick={nextQuote} />
         </div>
     );
 };

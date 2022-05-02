@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <QuoteBox/>
-      <a className='icon-code_app' href=''><i className="fa-brands fa-github"></i></a>
+      <a className='icon-code_app' href="https://github.com/MalanFernando/QuoteBox.git" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-github"></i></a>
     </div>
   );
 }
